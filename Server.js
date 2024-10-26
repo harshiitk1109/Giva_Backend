@@ -6,10 +6,10 @@ const { Pool } = require('pg');
 
 // Database connection
 const pool = new Pool({
-    user: 'postgres',
-    host: 'localhost',
-    database: 'postgres',
-    password: 'Harshit1109@',
+    user: 'giva_task_user',
+    host: 'postgresql://giva_task_user:rsiiK535l6koaTUjuzLZJSWcjDr6wYXT@dpg-csed9ie8ii6s7391dbf0-a/giva_task',
+    database: 'giva_task',
+    password: 'rsiiK535l6koaTUjuzLZJSWcjDr6wYXT@',
     port: 5432,
 });
 
